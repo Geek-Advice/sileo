@@ -28,7 +28,7 @@
 	],
 	"scripts": {
 		"build": "rm -rf dist && bunchee && cp src/styles.css dist/styles.css",
-		"dev": "bunchee --watch",
+		"dev": "bunchee --watch"
 	},
 	"peerDependencies": {
 		"react": ">=18",
